@@ -20,7 +20,6 @@ results/                  result tables and figures (see "Results" below)
 scripts/
   first_version/          protocol of the first submission (flat cross-validation) and its plots
   revision1/              everything added in the revision (nested CV, seeds, ablation, K, timing)
-apps/shiny_app.R          Shiny application for benchmarking imbalanced classifiers
 ```
 
 Every script is run **from the project root** (they start with `source("global.R")` and read/write `results/...`):
@@ -45,7 +44,7 @@ pip install -r requirements.txt     # torch, numpy, scipy, scikit-learn  (point 
 
 `data/datasets_binary.rds` contains the 72 binary imbalanced datasets derived from 30 source datasets (UCI and KEEL repositories; `results/dataset info.xlsx` lists name, n, p, imbalance ratio). Datasets derived from the same source are not independent, and the family of every dataset is given in the last column of the dataset table of the paper's appendix.
 
-TODO(authors): list the source URL / version of each dataset and how categorical features and missing values were handled.
+The source, URL, and license of every dataset, and the preprocessing, are documented in [`data/README.md`](data/README.md).
 
 ## Reproducing the results
 
@@ -77,4 +76,4 @@ TODO(authors): add the BibTeX entry and DOI once the paper is published.
 
 ## License
 
-TODO(authors): add a license (for example MIT for the code). The datasets keep the licenses of the UCI and KEEL repositories.
+The code is released under the MIT License (see `LICENSE`). The datasets keep the licenses of their original sources (see `data/README.md`).
