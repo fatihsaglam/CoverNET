@@ -1,0 +1,25 @@
+# R / RStudio
+.Rproj.user/
+.Rhistory
+.RData
+.Rdata
+.httr-oauth
+.Rapp.history
+# OS / editors
+.DS_Store
+.quarto/
+.positai/
+__pycache__/
+# raw result objects: large, regenerate with the scripts or download from the archive linked in the README
+results/**/*.rds
+# the datasets are the one .rds file that must be kept
+!data/*.rds
+# paper under review and scratch files
+manuscript/
+submission/
+playground.R
+*.aux
+*.log
+*.out
+*.bbl
+*.blg

@@ -1,0 +1,76 @@
+\begin{table}[H]
+\caption{Ablation: Bradley-Terry comparison of the full model with each variant for MCC (the first-named model is the one more likely to win)}
+\label{tab:BTablation_MCC}
+\centering
+\scriptsize
+\begin{tabular}{@{}lllll@{}}
+\toprule
+Pair & Mean & Delta & Proportion above 50 & In ROPE \\
+\midrule
+Full \textgreater\ w/o all auxiliary terms & 0.53 & 0.10 & 0.79 & 0.76 \\
+Full \textgreater\ w/o $\mathcal{L}_{cov}$ & 0.64 & 0.10 & 1.00 & 0.00 \\
+w/o $\mathcal{L}_{rep}$ \textgreater\ Full & 0.66 & 0.10 & 1.00 & 0.00 \\
+Random-sample init. \textgreater\ Full & 0.66 & 0.10 & 1.00 & 0.00 \\
+w/o $\mathcal{L}_{pen}$ \textgreater\ Full & 0.69 & 0.10 & 1.00 & 0.00 \\
+Full \textgreater\ Random-normal init. & 0.86 & 0.06 & 1.00 & 0.00 \\
+\bottomrule
+\end{tabular}%
+\end{table}
+
+\begin{table}[H]
+\caption{Ablation: Bradley-Terry comparison of the full model with each variant for P4 (the first-named model is the one more likely to win)}
+\label{tab:BTablation_P4}
+\centering
+\scriptsize
+\begin{tabular}{@{}lllll@{}}
+\toprule
+Pair & Mean & Delta & Proportion above 50 & In ROPE \\
+\midrule
+Full \textgreater\ w/o all auxiliary terms & 0.54 & 0.11 & 0.89 & 0.58 \\
+Full \textgreater\ w/o $\mathcal{L}_{cov}$ & 0.65 & 0.10 & 1.00 & 0.00 \\
+w/o $\mathcal{L}_{rep}$ \textgreater\ Full & 0.67 & 0.10 & 1.00 & 0.00 \\
+Random-sample init. \textgreater\ Full & 0.67 & 0.10 & 1.00 & 0.00 \\
+w/o $\mathcal{L}_{pen}$ \textgreater\ Full & 0.71 & 0.09 & 1.00 & 0.00 \\
+Full \textgreater\ Random-normal init. & 0.86 & 0.06 & 1.00 & 0.00 \\
+\bottomrule
+\end{tabular}%
+\end{table}
+
+\begin{table}[H]
+\caption{Ablation: Bradley-Terry comparison of the full model with each variant for IAM (the first-named model is the one more likely to win)}
+\label{tab:BTablation_IAM}
+\centering
+\scriptsize
+\begin{tabular}{@{}lllll@{}}
+\toprule
+Pair & Mean & Delta & Proportion above 50 & In ROPE \\
+\midrule
+Full \textgreater\ w/o all auxiliary terms & 0.53 & 0.11 & 0.84 & 0.70 \\
+Full \textgreater\ w/o $\mathcal{L}_{cov}$ & 0.63 & 0.10 & 1.00 & 0.01 \\
+Random-sample init. \textgreater\ Full & 0.65 & 0.10 & 1.00 & 0.00 \\
+w/o $\mathcal{L}_{rep}$ \textgreater\ Full & 0.66 & 0.10 & 1.00 & 0.00 \\
+w/o $\mathcal{L}_{pen}$ \textgreater\ Full & 0.69 & 0.10 & 1.00 & 0.00 \\
+Full \textgreater\ Random-normal init. & 0.85 & 0.07 & 1.00 & 0.00 \\
+\bottomrule
+\end{tabular}%
+\end{table}
+
+\begin{table}[H]
+\caption{Ablation: Bradley-Terry comparison of the full model with each variant for AUC (the first-named model is the one more likely to win)}
+\label{tab:BTablation_AUC}
+\centering
+\scriptsize
+\begin{tabular}{@{}lllll@{}}
+\toprule
+Pair & Mean & Delta & Proportion above 50 & In ROPE \\
+\midrule
+Full \textgreater\ w/o all auxiliary terms & 0.52 & 0.11 & 0.68 & 0.80 \\
+Random-sample init. \textgreater\ Full & 0.67 & 0.10 & 1.00 & 0.00 \\
+Full \textgreater\ w/o $\mathcal{L}_{cov}$ & 0.69 & 0.10 & 1.00 & 0.00 \\
+w/o $\mathcal{L}_{rep}$ \textgreater\ Full & 0.70 & 0.09 & 1.00 & 0.00 \\
+w/o $\mathcal{L}_{pen}$ \textgreater\ Full & 0.72 & 0.09 & 1.00 & 0.00 \\
+Full \textgreater\ Random-normal init. & 0.88 & 0.06 & 1.00 & 0.00 \\
+\bottomrule
+\end{tabular}%
+\end{table}
+

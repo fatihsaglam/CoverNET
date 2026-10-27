@@ -1,0 +1,229 @@
+"Scenario","Metric","Method","MeanRank"
+"paper flat","IAM","RF",8.757
+"paper flat","IAM","RUS_RF",14.764
+"paper flat","IAM","SMOTE_RF",6.576
+"paper flat","IAM","SVMRadial",9.84
+"paper flat","IAM","SMOTE_SVM",8.868
+"paper flat","IAM","NaiveBayes",14.618
+"paper flat","IAM","CART",11.125
+"paper flat","IAM","KNN",11.931
+"paper flat","IAM","LogReg",12.625
+"paper flat","IAM","NNET",7.854
+"paper flat","IAM","BalancedNNET",10.625
+"paper flat","IAM","SMOTENNET",7.785
+"paper flat","IAM","FocalNNET",7.819
+"paper flat","IAM","FocalSDNNET",8.514
+"paper flat","IAM","LDAMNNET",10.076
+"paper flat","IAM","MMNNET",8.917
+"paper flat","IAM","PNN",13.299
+"paper flat","IAM","SkewPNN",11.979
+"paper flat","IAM","CoverNET",4.028
+"paper flat","MCC","RF",9.278
+"paper flat","MCC","RUS_RF",12.889
+"paper flat","MCC","SMOTE_RF",7.625
+"paper flat","MCC","SVMRadial",10.292
+"paper flat","MCC","SMOTE_SVM",9.743
+"paper flat","MCC","NaiveBayes",15.139
+"paper flat","MCC","CART",12.618
+"paper flat","MCC","KNN",12.847
+"paper flat","MCC","LogReg",13.944
+"paper flat","MCC","NNET",8.5
+"paper flat","MCC","BalancedNNET",8.771
+"paper flat","MCC","SMOTENNET",6.486
+"paper flat","MCC","FocalNNET",8.764
+"paper flat","MCC","FocalSDNNET",9.125
+"paper flat","MCC","LDAMNNET",8.285
+"paper flat","MCC","MMNNET",9.764
+"paper flat","MCC","PNN",11.882
+"paper flat","MCC","SkewPNN",10.535
+"paper flat","MCC","CoverNET",3.514
+"paper flat","P4","RF",9.535
+"paper flat","P4","RUS_RF",12.889
+"paper flat","P4","SMOTE_RF",7.188
+"paper flat","P4","SVMRadial",10.444
+"paper flat","P4","SMOTE_SVM",9.028
+"paper flat","P4","NaiveBayes",14.889
+"paper flat","P4","CART",12.431
+"paper flat","P4","KNN",12.833
+"paper flat","P4","LogReg",13.674
+"paper flat","P4","NNET",8.743
+"paper flat","P4","BalancedNNET",8.826
+"paper flat","P4","SMOTENNET",6.583
+"paper flat","P4","FocalNNET",8.896
+"paper flat","P4","FocalSDNNET",9.417
+"paper flat","P4","LDAMNNET",8.542
+"paper flat","P4","MMNNET",10.16
+"paper flat","P4","PNN",11.875
+"paper flat","P4","SkewPNN",10.521
+"paper flat","P4","CoverNET",3.528
+"paper flat","ROCAUC","RF",7.701
+"paper flat","ROCAUC","RUS_RF",11.396
+"paper flat","ROCAUC","SMOTE_RF",7.444
+"paper flat","ROCAUC","SVMRadial",12.125
+"paper flat","ROCAUC","SMOTE_SVM",10.604
+"paper flat","ROCAUC","NaiveBayes",15.958
+"paper flat","ROCAUC","CART",17.715
+"paper flat","ROCAUC","KNN",16.035
+"paper flat","ROCAUC","LogReg",14.847
+"paper flat","ROCAUC","NNET",7.903
+"paper flat","ROCAUC","BalancedNNET",7.208
+"paper flat","ROCAUC","SMOTENNET",6.167
+"paper flat","ROCAUC","FocalNNET",7.194
+"paper flat","ROCAUC","FocalSDNNET",7.812
+"paper flat","ROCAUC","LDAMNNET",6.278
+"paper flat","ROCAUC","MMNNET",9
+"paper flat","ROCAUC","PNN",9.917
+"paper flat","ROCAUC","SkewPNN",10.743
+"paper flat","ROCAUC","CoverNET",3.951
+"paper methods nested","IAM","RF",8.257
+"paper methods nested","IAM","RUS_RF",14.472
+"paper methods nested","IAM","SMOTE_RF",5.854
+"paper methods nested","IAM","SVMRadial",9.083
+"paper methods nested","IAM","SMOTE_SVM",8
+"paper methods nested","IAM","NaiveBayes",14.562
+"paper methods nested","IAM","CART",10.681
+"paper methods nested","IAM","KNN",11.549
+"paper methods nested","IAM","LogReg",12.146
+"paper methods nested","IAM","NNET",8.236
+"paper methods nested","IAM","BalancedNNET",11.049
+"paper methods nested","IAM","SMOTENNET",8.215
+"paper methods nested","IAM","FocalNNET",7.993
+"paper methods nested","IAM","FocalSDNNET",8.507
+"paper methods nested","IAM","LDAMNNET",11.014
+"paper methods nested","IAM","MMNNET",9.257
+"paper methods nested","IAM","PNN",13.215
+"paper methods nested","IAM","SkewPNN",12.167
+"paper methods nested","IAM","CoverNET",5.743
+"paper methods nested","MCC","RF",8.59
+"paper methods nested","MCC","RUS_RF",12.174
+"paper methods nested","MCC","SMOTE_RF",6.778
+"paper methods nested","MCC","SVMRadial",9.396
+"paper methods nested","MCC","SMOTE_SVM",8.757
+"paper methods nested","MCC","NaiveBayes",14.896
+"paper methods nested","MCC","CART",12.208
+"paper methods nested","MCC","KNN",12.597
+"paper methods nested","MCC","LogReg",13.403
+"paper methods nested","MCC","NNET",9.306
+"paper methods nested","MCC","BalancedNNET",9.229
+"paper methods nested","MCC","SMOTENNET",6.819
+"paper methods nested","MCC","FocalNNET",9.34
+"paper methods nested","MCC","FocalSDNNET",9.604
+"paper methods nested","MCC","LDAMNNET",8.993
+"paper methods nested","MCC","MMNNET",9.993
+"paper methods nested","MCC","PNN",11.694
+"paper methods nested","MCC","SkewPNN",10.556
+"paper methods nested","MCC","CoverNET",5.667
+"paper methods nested","P4","RF",8.91
+"paper methods nested","P4","RUS_RF",12.104
+"paper methods nested","P4","SMOTE_RF",6.201
+"paper methods nested","P4","SVMRadial",9.535
+"paper methods nested","P4","SMOTE_SVM",8.167
+"paper methods nested","P4","NaiveBayes",14.632
+"paper methods nested","P4","CART",12.069
+"paper methods nested","P4","KNN",12.486
+"paper methods nested","P4","LogReg",13.243
+"paper methods nested","P4","NNET",9.604
+"paper methods nested","P4","BalancedNNET",9.132
+"paper methods nested","P4","SMOTENNET",6.583
+"paper methods nested","P4","FocalNNET",9.674
+"paper methods nested","P4","FocalSDNNET",9.854
+"paper methods nested","P4","LDAMNNET",9.417
+"paper methods nested","P4","MMNNET",10.389
+"paper methods nested","P4","PNN",11.785
+"paper methods nested","P4","SkewPNN",10.528
+"paper methods nested","P4","CoverNET",5.688
+"paper methods nested","ROCAUC","RF",6.083
+"paper methods nested","ROCAUC","RUS_RF",9.396
+"paper methods nested","ROCAUC","SMOTE_RF",5.722
+"paper methods nested","ROCAUC","SVMRadial",10.84
+"paper methods nested","ROCAUC","SMOTE_SVM",8.729
+"paper methods nested","ROCAUC","NaiveBayes",14.993
+"paper methods nested","ROCAUC","CART",17.41
+"paper methods nested","ROCAUC","KNN",15.347
+"paper methods nested","ROCAUC","LogReg",13.694
+"paper methods nested","ROCAUC","NNET",9.382
+"paper methods nested","ROCAUC","BalancedNNET",9.333
+"paper methods nested","ROCAUC","SMOTENNET",6.632
+"paper methods nested","ROCAUC","FocalNNET",8.868
+"paper methods nested","ROCAUC","FocalSDNNET",9.174
+"paper methods nested","ROCAUC","LDAMNNET",8.271
+"paper methods nested","ROCAUC","MMNNET",9.576
+"paper methods nested","ROCAUC","PNN",9.799
+"paper methods nested","ROCAUC","SkewPNN",9.986
+"paper methods nested","ROCAUC","CoverNET",6.764
+"tuned RF and SVM nested","IAM","RFtuned",8.604
+"tuned RF and SVM nested","IAM","RUSRFtuned",14.306
+"tuned RF and SVM nested","IAM","SMOTERFtuned",5.993
+"tuned RF and SVM nested","IAM","SVMtuned",5.958
+"tuned RF and SVM nested","IAM","SMOTESVMtuned",7.569
+"tuned RF and SVM nested","IAM","NaiveBayes",14.472
+"tuned RF and SVM nested","IAM","CART",10.799
+"tuned RF and SVM nested","IAM","KNN",11.521
+"tuned RF and SVM nested","IAM","LogReg",12.201
+"tuned RF and SVM nested","IAM","NNET",8.618
+"tuned RF and SVM nested","IAM","BalancedNNET",11.361
+"tuned RF and SVM nested","IAM","SMOTENNET",8.556
+"tuned RF and SVM nested","IAM","FocalNNET",8.396
+"tuned RF and SVM nested","IAM","FocalSDNNET",8.847
+"tuned RF and SVM nested","IAM","LDAMNNET",11.486
+"tuned RF and SVM nested","IAM","MMNNET",9.646
+"tuned RF and SVM nested","IAM","PNN",13.368
+"tuned RF and SVM nested","IAM","SkewPNN",12.222
+"tuned RF and SVM nested","IAM","CoverNET",6.076
+"tuned RF and SVM nested","MCC","RFtuned",9.007
+"tuned RF and SVM nested","MCC","RUSRFtuned",11.938
+"tuned RF and SVM nested","MCC","SMOTERFtuned",6.604
+"tuned RF and SVM nested","MCC","SVMtuned",6.319
+"tuned RF and SVM nested","MCC","SMOTESVMtuned",7.097
+"tuned RF and SVM nested","MCC","NaiveBayes",14.826
+"tuned RF and SVM nested","MCC","CART",12.451
+"tuned RF and SVM nested","MCC","KNN",12.667
+"tuned RF and SVM nested","MCC","LogReg",13.528
+"tuned RF and SVM nested","MCC","NNET",9.882
+"tuned RF and SVM nested","MCC","BalancedNNET",9.75
+"tuned RF and SVM nested","MCC","SMOTENNET",7.243
+"tuned RF and SVM nested","MCC","FocalNNET",10.035
+"tuned RF and SVM nested","MCC","FocalSDNNET",10.174
+"tuned RF and SVM nested","MCC","LDAMNNET",9.431
+"tuned RF and SVM nested","MCC","MMNNET",10.347
+"tuned RF and SVM nested","MCC","PNN",11.854
+"tuned RF and SVM nested","MCC","SkewPNN",10.764
+"tuned RF and SVM nested","MCC","CoverNET",6.083
+"tuned RF and SVM nested","P4","RFtuned",9.389
+"tuned RF and SVM nested","P4","RUSRFtuned",11.993
+"tuned RF and SVM nested","P4","SMOTERFtuned",6.319
+"tuned RF and SVM nested","P4","SVMtuned",6.604
+"tuned RF and SVM nested","P4","SMOTESVMtuned",6.812
+"tuned RF and SVM nested","P4","NaiveBayes",14.41
+"tuned RF and SVM nested","P4","CART",12.34
+"tuned RF and SVM nested","P4","KNN",12.521
+"tuned RF and SVM nested","P4","LogReg",13.306
+"tuned RF and SVM nested","P4","NNET",10.132
+"tuned RF and SVM nested","P4","BalancedNNET",9.576
+"tuned RF and SVM nested","P4","SMOTENNET",6.938
+"tuned RF and SVM nested","P4","FocalNNET",10.215
+"tuned RF and SVM nested","P4","FocalSDNNET",10.326
+"tuned RF and SVM nested","P4","LDAMNNET",9.826
+"tuned RF and SVM nested","P4","MMNNET",10.694
+"tuned RF and SVM nested","P4","PNN",11.944
+"tuned RF and SVM nested","P4","SkewPNN",10.653
+"tuned RF and SVM nested","P4","CoverNET",6
+"tuned RF and SVM nested","ROCAUC","RFtuned",5.861
+"tuned RF and SVM nested","ROCAUC","RUSRFtuned",8.688
+"tuned RF and SVM nested","ROCAUC","SMOTERFtuned",5.569
+"tuned RF and SVM nested","ROCAUC","SVMtuned",7.181
+"tuned RF and SVM nested","ROCAUC","SMOTESVMtuned",6.424
+"tuned RF and SVM nested","ROCAUC","NaiveBayes",15.083
+"tuned RF and SVM nested","ROCAUC","CART",17.493
+"tuned RF and SVM nested","ROCAUC","KNN",15.681
+"tuned RF and SVM nested","ROCAUC","LogReg",13.972
+"tuned RF and SVM nested","ROCAUC","NNET",10.132
+"tuned RF and SVM nested","ROCAUC","BalancedNNET",9.938
+"tuned RF and SVM nested","ROCAUC","SMOTENNET",7.292
+"tuned RF and SVM nested","ROCAUC","FocalNNET",9.451
+"tuned RF and SVM nested","ROCAUC","FocalSDNNET",9.854
+"tuned RF and SVM nested","ROCAUC","LDAMNNET",8.993
+"tuned RF and SVM nested","ROCAUC","MMNNET",10.319
+"tuned RF and SVM nested","ROCAUC","PNN",10.243
+"tuned RF and SVM nested","ROCAUC","SkewPNN",10.34
+"tuned RF and SVM nested","ROCAUC","CoverNET",7.486
