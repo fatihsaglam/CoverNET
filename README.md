@@ -72,17 +72,7 @@ Notes:
 
 ## Citation
 
-If you use this code, please cite the paper (under review; the entry will be updated with the volume and DOI when it is published):
-
-```bibtex
-@article{saglam2026covernet,
-  author  = {Sa{\u{g}}lam, Fatih and Kara, Vildan},
-  title   = {{CoverNET}: A Class Cover Catch Digraph-Inspired Neural Network Architecture for Imbalanced Classification},
-  journal = {Neural Networks},
-  year    = {2026},
-  note    = {Manuscript NEUNET-D-26-05591, under revision}
-}
-```
+To be added after publication.
 
 ## License
 
