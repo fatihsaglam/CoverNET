@@ -7,6 +7,10 @@ cran <- c("R6", "reticulate", "ggplot2", "openxlsx", "readxl", "dplyr", "tidyr",
 missing <- setdiff(cran, rownames(installed.packages()))
 if (length(missing)) install.packages(missing)
 # packages that are not on CRAN (or not in the version used here): install from GitHub if the next lines fail
-for (p in c("SMOTEWB", "bbtcomp")) if (!requireNamespace(p, quietly = TRUE)) message("Please install '", p, "' (see README).")
+if (!requireNamespace("SMOTEWB", quietly = TRUE)) install.packages("SMOTEWB")
+if (!requireNamespace("bbtcomp", quietly = TRUE)) {
+  if (!requireNamespace("remotes", quietly = TRUE)) install.packages("remotes")
+  remotes::install_github("jwainer/bbtcomp")
+}
 # Python side
 # reticulate::py_install(c("torch", "numpy", "scipy", "scikit-learn"))

@@ -38,7 +38,7 @@ Rscript install_packages.R          # R packages
 ```bash
 pip install -r requirements.txt     # torch, numpy, scipy, scikit-learn  (point reticulate to this environment)
 ```
-`SMOTEWB` and `bbtcomp` (Bayesian Bradley-Terry comparison, Jacques et al., 2023) must be installed if they are not available from CRAN (TODO(authors): add the install command). All experiments were run on CPU, one thread per fit.
+`SMOTEWB` is on CRAN (`install.packages("SMOTEWB")`). `bbtcomp` (Bayesian Bradley-Terry comparison, Wainer, 2023) is installed from GitHub: `remotes::install_github("jwainer/bbtcomp")`. All experiments were run on CPU, one thread per fit.
 
 ## Data
 
@@ -72,7 +72,17 @@ Notes:
 
 ## Citation
 
-TODO(authors): add the BibTeX entry and DOI once the paper is published.
+If you use this code, please cite the paper (under review; the entry will be updated with the volume and DOI when it is published):
+
+```bibtex
+@article{saglam2026covernet,
+  author  = {Sa{\u{g}}lam, Fatih and Kara, Vildan},
+  title   = {{CoverNET}: A Class Cover Catch Digraph-Inspired Neural Network Architecture for Imbalanced Classification},
+  journal = {Neural Networks},
+  year    = {2026},
+  note    = {Manuscript NEUNET-D-26-05591, under revision}
+}
+```
 
 ## License
 
