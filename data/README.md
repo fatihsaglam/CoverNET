@@ -2,7 +2,7 @@
 
 `datasets_binary.rds` is a list of 72 data frames (one per binary imbalanced dataset; features first, class label in the last column; the minority class is the positive class). The 72 datasets derive from 30 source datasets ("families"); datasets of the same family share their features and are not independent.
 
-**TODO(authors): fill the last three columns (source, URL/reference, license) for every dataset and state how categorical features and missing values were handled before the datasets were stored.**
+**Preprocessing before storage.** Categorical features, where present, were converted to dummy (indicator) variables, and observations with missing values were removed. The source, URL/reference and license columns below are to be completed.
 
 | Dataset | Family | n | p | IR | Source (UCI / KEEL / other) | URL or reference | License |
 |---|---|---|---|---|---|---|---|
